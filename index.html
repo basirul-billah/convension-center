@@ -484,7 +484,7 @@
         <section class="container-lg my-4">
             <h1 class="text-center py-5">Frequently Asked Questions</h1>
 
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center order-md-2">
                 <div class="col-lg-6 p-4">
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
@@ -564,32 +564,37 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6">
-                    <img src="images/people.png" alt="people">
+                <div class="col-lg-6 order-md-1">
+                    <img class="img-fluid" src="images/people.png" alt="people">
                 </div>
             </div>
         </section>
 
         <!-- bonus section  -->
-        <section class="container">
-            <h1 class="text-center pt-5" id="Contact">Contact us</h1>
+        <section class="container p-4">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h1 class="text-center" id="Contact">Contact us</h1>
+                </div>
+                <div class="card-body">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Name</span>
+                        <input type="text" class="form-control" placeholder="Name" aria-label="Name"
+                            aria-describedby="basic-addon1">
+                    </div>
 
-            <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">Name</span>
-                <input type="text" class="form-control" placeholder="Name" aria-label="Name"
-                    aria-describedby="basic-addon1">
-            </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Phone</span>
+                        <input type="text" class="form-control" placeholder="Phone" aria-label="Phone"
+                            aria-describedby="basic-addon1">
+                    </div>
 
-            <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">Phone</span>
-                <input type="text" class="form-control" placeholder="Phone" aria-label="Phone"
-                    aria-describedby="basic-addon1">
-            </div>
-
-            <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">Email</span>
-                <input type="text" class="form-control" placeholder="Email" aria-label="Email"
-                    aria-describedby="basic-addon1">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Email</span>
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+                            aria-describedby="basic-addon1">
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -600,7 +605,7 @@
     <footer class="container-fluid bg-primary text-light p-4">
 
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 d-flex align-items-center">
                 <p>© 2020 bike. All rights reserved</p>
             </div>
             <div class="col-lg-6 d-flex flex-column align-items-end">
